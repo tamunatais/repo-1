@@ -1,0 +1,201 @@
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.container {
+   display:grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.getstarted {
+    grid-area: getstarted;
+}
+
+.login {
+    grid-area: login;
+}
+
+h1 {
+    grid-area:h1;
+}
+ul.main {
+    grid-area: ulmain;
+}
+
+div.btnmain {
+    grid-area: btnmain;
+}
+
+ul.ipsy {
+    grid-area: ipsy;
+
+}
+
+ul.w/name {
+    grid-area: careers;
+}
+
+ul. help {
+    grid-area: help;
+}
+
+ul.social media {
+    grid-area: connect;
+}
+
+div.header {
+    width: 100%;
+    margin: 0%;
+    height: auto;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    padding: 8px;
+
+}
+ 
+img.logo {
+    position: absolute;
+    left: 90px;
+    top: 15px;
+    width: 70px;
+    height: 30px;
+    
+}
+
+    div.login {
+        padding: 15px;
+        right: 60px;
+}
+
+div.login a {
+    color: rgb(223, 86, 200);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    letter-spacing: 0.3px;
+    text-align: center;
+    height: 0.4em;
+    text-decoration: none;
+}
+
+div.getstarted {
+    padding: 15px;
+   
+}
+
+div.getstarted a {
+    color: rgb(223, 86, 200);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    border-right: 30px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    height: 0.4em;
+}
+
+
+div.main {
+    background-image: url("img/fileAsset.jpg");
+    top: 66px;
+    width: 100%;
+    height: 600px;
+}
+
+background-image {
+    width: 150%;
+    height: auto;
+    margin: -195px;
+  
+}
+
+
+h1.header {
+    margin: 250px 0 0 400px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+span:before {
+    content: "Lip Gloss";
+    animation: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+
+@keyframes animate {
+0% {
+    content: "Eye Shadow";
+}
+10% {
+    content: "Lip Gloss";
+}
+20% {
+    content: "Lipstick";
+}
+30% {
+    content: "Councelear";
+}
+40% {
+    content: "Tonal Cream";
+}
+50% {
+    content: "Highlighter";
+}
+60% {
+    content: "Mascara";
+}
+70% {
+    content: "Nail Polish";
+}
+80% {
+    content: "Foundation";
+}
+90% {
+    content: "Moisturizer";
+}
+    100% {
+        content: "Eye Liner";
+    }
+
+}
+
+div.footer {
+    width: 100%;
+    top: 1000px;
+    height: 300px;
+ position: absolute;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: rgb(57, 61, 68);
+    color: white;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 400px) {
+      div.container {
+          grid-template-areas: 
+          "logo getstarted"
+          "login"
+
+      }
+  }

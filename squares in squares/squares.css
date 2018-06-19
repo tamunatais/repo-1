@@ -1,0 +1,63 @@
+.wrapper {
+    width: 100%;
+    height:600px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+.example {
+    float: left;
+    margin: 20px;
+
+}
+.container {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background: lightgrey;
+    
+}
+
+h6 {
+    font-size: 20px;
+}
+
+.smaller {
+    background: rgb(150, 147, 147);
+    width: 170px;
+    height: 170px;
+
+}
+
+.s1 {
+    width: 130px;
+    height: 130px;
+    float: right;
+   margin-top: 170px;
+}
+
+.s2 {
+    float: left;
+   margin-top: 130px;
+}
+
+.small {
+    width: 80px;
+    height: 80px;
+    background: rgb(78, 76, 76);
+
+}
+
+.small2 {
+    float: right;
+}
+
+.s3 {
+    float: left;
+}
+
+
+.small3 {
+    float: right;
+
+}

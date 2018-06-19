@@ -1,0 +1,30 @@
+div.mother {
+ width: 800px;
+ height: 170px;
+border: 1px solid black;
+padding: 5px;
+}
+
+div.child {
+    width: 160px;
+    height: 160px;
+    border: 1px solid black;
+    margin: 5px;
+    position: relative;
+    background-color: rgba(243, 64, 64, 0.39);
+    transition-duration: 8s;
+    animation-name: MyAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes MyAnimation { 
+
+0% {left: 5px;}
+
+25% {left: 320px;}
+
+75% {left: 635px;}
+
+}

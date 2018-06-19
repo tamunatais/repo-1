@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.header {
+    width: 100%;
+    background-color:rgb(121, 119, 119);
+    height: 50px;
+    
+}
+ 
+h1 {
+    color: white;
+    text-align: center;
+}
+.nav {
+    float: left;
+    height:300px;
+    width: 25%;
+}
+
+ul  {
+    padding: 0;
+}
+ul li {
+    color:  white;
+    margin: 0;
+    border: 2px solid white;
+    background-color: rgb(20, 143, 219);
+    margin: 0px;
+
+overflow: hidden;
+padding:7px;
+}
+
+li:hover {
+   background-color: rgb(232, 151, 243);
+}
+ 
+.main { 
+    float: right;
+    width: 70%;
+   
+    
+
+}
+.footer {
+    clear:both;
+    width: 100%;
+    background-color: rgb(121, 119, 119);
+    color: white;
+    height: 50px;
+}

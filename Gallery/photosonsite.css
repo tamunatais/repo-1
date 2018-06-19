@@ -1,0 +1,17 @@
+div.photo {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 270px;
+}
+div.photo:hover {
+    border: 1px solid #000;
+}
+div.photo img {
+    width: 100%;
+    height: auto;
+}
+div.name {
+    padding: 15px;
+    text-align: center;
+}

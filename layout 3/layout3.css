@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    border: 1px solid #000;
+    float: left;
+    padding: 70px;
+    width: 100%;
+    content:none;
+}
+.container {
+    float: left;
+    width:100%;
+    clear: both;
+}
+.box {
+    border: 1px solid #000;
+    margin: 0;
+    float: left;
+    width: 33.33%;
+    height: 430px;
+    padding-top: 155px;
+    padding-bottom: 155px;
+    content:none;
+}
+
+.footer {
+    border: 1px solid #000;
+    float: left;
+    padding: 75px;
+    width: 100%;
+    content:none;
+}

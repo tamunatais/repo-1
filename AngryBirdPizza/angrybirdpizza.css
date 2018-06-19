@@ -1,0 +1,28 @@
+div.left {
+    padding: 15px;
+    float: left;
+    width: 18%;
+    font-size: 0.8em;
+}
+div.center {
+    padding: 15px;
+    float: left;
+    width: 55%;
+    height: 80%;
+}  
+div.right {
+    padding: 5px;
+    float: left;
+    width: 20%;
+    font-size: 0.8em;
+    height: 780px;
+}
+footer {
+    background:green;
+    color: white;
+    float: left;
+    height: 100px;
+    width: 100%;
+
+}
+    
