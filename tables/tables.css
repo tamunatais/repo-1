@@ -1,0 +1,20 @@
+.table {
+    width: 40%;
+    height: 800;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+}
+
+.btns {
+    margin: 8px;
+    
+}
