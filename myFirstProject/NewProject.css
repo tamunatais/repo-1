@@ -1,0 +1,153 @@
+body {
+    width: max-width;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-color: rgb(247, 225, 231);
+    display: flex;
+    height: 100%;
+}
+
+#wrapper { 
+    display: flex;
+    align-items: stretch;
+    height:auto;
+    align-content: center;
+}
+
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#statistics {
+    padding: 50px;
+    max-height: 390px;
+    height: auto;
+}
+
+
+#mainTable {
+    margin: 40px;
+}
+
+#tableButtons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+button { 
+    margin: 15px;
+    padding: 3px;
+}
+
+
+#author {
+    max-height: 300px;
+    height:auto;
+    padding: 85px;
+    text-align: left;
+}
+#tableContainer {
+     display: flex;
+     height: auto;
+}
+
+.list-column {
+    border: 0.5px solid black;
+    width: auto; 
+    height: auto;
+}
+
+#listColumn {
+    border: 0.5px solid black;
+    width: auto; 
+    height:100%;
+    background-color: rgb(235, 137, 202);
+}
+
+
+.score-column {
+    border: 0.5px solid black;
+    width: auto; 
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+div.list {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    height: 35px;
+    font-size: 15px; 
+}
+
+div.score {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    height: 35px;
+    font-size: 15px; 
+}
+
+div.students-list {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    height: 35px;
+    font-size: 15px; 
+}
+#average {
+    border: 0.5px solid black;
+    width: auto; 
+    height: 100%;
+    background-color: rgb(243, 189, 223);
+}
+div.average {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    height: 35px;
+    font-size: 15px; 
+    text-align: center;
+}
+div.average1 {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    height: 35px;
+    font-size: 15px; 
+    text-align: center;
+}
+.dateDivv {
+    border: 0.5px solid black;
+    min-width:  50px;
+    width: auto;
+    text-align: center;
+    height: 35px;
+}
+
+
+@media (max-width: 750px) {
+    #wrapper {
+        flex-direction: column;
+    }
+    #mainTable {
+        display: flex;
+        flex: shrink;
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    div#left {order: 2;}
+    div#mainTable {order: 1;}
+}

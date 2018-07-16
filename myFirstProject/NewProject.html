@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="NewProject.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="left">
+            <div id="statistics">
+                <ul>
+                    <h2>Statistic of Student Result</h2>
+                    <li id="totalDays">Total Days</li>
+                    <li id="missedLessons">Missed Lessons</li>
+                    <li id="averageMark">Average Mark</li>
+                    <li id="totalStudents">Total Students</li>
+                </ul>
+            </div>
+
+            <div id="author">
+                <h3>Author</h3>
+                <p>2018 © Tamari Gogoladze</p>
+            </div>
+        </div>
+        <div id="mainTable">
+            <div id="tableButtons">
+                <div>
+                    <h3>Table</h3>
+                </div>
+                <div>
+                    <button id="addDay" onclick="addNew()">Add Day</button>
+                </div>
+                <div>
+                    <button id="removeDay" onClick="removeDay()">Remove Day</button>
+                </div>
+                <div>
+                    <button id="Update Table" onclick="update()">Update Table</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="tableContainer">
+                <div id="listColumn">
+                    <div class="students-list">Students list</div>
+                    <div class="list">Nikoloz Asatiani</div>
+                    <div class="list">Tamta Jhodurishvili</div>
+                    <div class="list">Tamari Gogoladze</div>
+                    <div class="list">Saba Turdziladze</div>
+                    <div class="list">Tea Tchagua</div>
+                    <div class="list">Giorgi Abzianidze</div>
+                    <div class="list">Otar Potskhoraia</div>
+                    <div class="list">Nino Grigalashvili</div>
+                    <div class="list">Mamuka Andjaparidze</div>
+                    <div class="list">Mariam Shamatava</div>
+                    <div class="list">Davit Davitiani</div>
+                    <div class="list">Dea Samniashvili</div>
+                    <div class="list">Nino Matskepladze</div>
+                    <div class="list">Vakhtang Nodadze</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="NewProject.js"></script>
+</body>
+</html>
