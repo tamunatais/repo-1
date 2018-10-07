@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snakeGame.css">
+</head>
+
+<body>
+    <div>
+        <div id="menu_div">
+            <h3> Game Settings </h3>
+            <div id="level_div">
+                <form id = "levelInput">
+                    <input type="radio" name="level" id = "novice" value="Novice" checked>Novice<br>
+                    <input type="radio" name="level"  id = "intermediate" value="Intermediate">Intermediate<br>
+                    <input type="radio" name="level" id = "hard" value="Hard">Hard
+                  </form>
+                  <input id = "speed_input" type = "text" placeholder = "Enter Snake's speed">
+<div>
+    <div>
+                <input id="snake_size" type="text" placeholder="Enter snake's size">
+                <input id="apple_count" type="text" placeholder="Enter number of apples">
+                <input id ="widthInput" type="text"  placeholder="Enter board width">
+                <input id ="heightInput" type="text"  placeholder="Enter board height" >
+                <button class="start_btn" onclick="game(), drawCanvasSize()">Lets Start!!</button>
+            </div>
+
+            <div id="canvas-div"></div>
+            <canvas id="only_canv">
+                <img id="apple" src="apple-512.png" id="picture" alt="apple">
+        </div>
+    </div>
+    <script src="snakeGame.js"></script>
+</body>
+
+</html>

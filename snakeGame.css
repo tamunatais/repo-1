@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 205, 149);
+    font-family: fantasy;
+}
+
+button {
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 35px;
+    color: rgb(105, 104, 105);
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    color: rgb(141, 128, 141);
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+input {
+    margin: 10px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#level_div {
+  display: flex;
+
+}
+
+#score_p {
+    font-size: 25px;
+    color: rgb(141, 128, 141);
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid rgb(141, 128, 141);
+    background: rgb(240, 170, 181);
+}
+
+#canvas_div {
+    display: initial;
+    margin:30px;
+    width: 700px;
+    height: 700px;
+    justify-content: center;
+}
+
